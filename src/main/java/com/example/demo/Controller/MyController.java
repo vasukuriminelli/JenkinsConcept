@@ -9,7 +9,7 @@ public class MyController {
 	@GetMapping("/get")
 	public String getData()
 	{
-		System.out.println("Testing Purpose");
+		
 		return "THIS IS RELATED TO THE JENKINS CONCEPT....!!";
 	}
 }
